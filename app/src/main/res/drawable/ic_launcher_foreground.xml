@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Striped synthwave sun over a palm silhouette (original artwork). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- sun: upper half disc, centre (54,62) r=24 -->
+    <path android:pathData="M30,62 A24,24 0 0,1 78,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="38" android:endX="0" android:endY="62">
+                <item android:offset="0" android:color="#FFFFE36E" />
+                <item android:offset="0.5" android:color="#FFFF8A3D" />
+                <item android:offset="1" android:color="#FFFF2F92" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- stripes cut through the sun -->
+    <path android:fillColor="#FF5A0F5E" android:pathData="M28,50h52v2h-52zM28,55h52v2.5h-52zM28,59.5h52v3h-52z" />
+    <!-- horizon line -->
+    <path android:fillColor="#FF2EE6D6" android:pathData="M26,64h56v2h-56z" />
+    <!-- palm trunk -->
+    <path android:fillColor="#FF0B0614" android:pathData="M64,74 C66,62 67,52 66,42 L68.5,42 C70,52 69,63 66.5,74 Z" />
+    <!-- palm fronds -->
+    <path android:fillColor="#FF0B0614"
+        android:pathData="M67,42 C61,35 52,33 45,37 C52,36 59,38 65,43 Z
+                          M67,42 C70,34 78,29 86,30 C79,33 73,37 69,44 Z
+                          M67,42 C65,34 58,28 50,27 C57,31 62,36 65,44 Z
+                          M67,42 C73,38 81,38 87,43 C81,41 74,42 68,45 Z
+                          M67,42 C60,42 52,46 48,53 C53,48 60,45 67,44 Z" />
+</vector>

@@ -10,7 +10,7 @@
   var RULES = [
     { t: "Bank it or lose it", b: "Cash in your pocket vanishes when you're Wasted or Busted. Hit an ATM after every job." },
     { t: "Save before you gamble", b: "No saving mid-mission and no replays. Use a fresh manual slot at every chapter." },
-    { t: "Empty Jason's stash early", b: "Grab the floorboard cash before the mission \"Tourist Trap\" — the house is gone after it." },
+    { t: "Empty Jason's stash early", b: "Grab the stash cash and bank $5k in Family Savings before \"Recalibration\" ends Chapter 1 — the house and pocket cash are gone after it." },
     { t: "Cops remember your look", b: "Keep a spare outfit in the trunk, holster your gun and swap cars to shake the heat." },
     { t: "Don't grind Chapter 1", b: "The real money opens up from Chapter 3. Early on, just learn the ropes and play the story." }
   ];
@@ -240,7 +240,7 @@
       "</ul><p style=\"margin-top:8px\">The game is brand new and patches can change prices, caps and unlocks.</p></div>" +
       '<div class="panel"><h3>Disclaimer</h3><p>Unofficial fan-made guide. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive. Game names and trademarks belong to their owners. Tip sources are linked on each tip.</p></div>' +
       '<div class="panel"><h3>Your progress</h3><p>' + Object.keys(learned).length + " learned · " + Object.keys(saved).length + ' saved</p><button class="danger" id="reset">Reset progress</button></div>' +
-      '<p class="footnote">Version 1.1 · content as of 21 Nov 2026</p></div></div>';
+      '<p class="footnote">Version 1.2 · content as of 21 Nov 2026</p></div></div>';
     $("#reset").addEventListener("click", function () {
       if (!confirm("Reset all learned and saved tips?")) return;
       learned = {}; saved = {}; store("learned", learned); store("saved", saved); toast("Progress reset"); renderAbout();

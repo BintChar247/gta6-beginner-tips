@@ -45,10 +45,22 @@ window.WALK_DATA = {
      "name": "Gone Fishing",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
-     "missable": [],
+     "unlocks": [
+      "Jason's house in Key Lento"
+     ],
+     "steps": [
+      "Ride with Cal in the boat and follow Donnie's plane, slowing down by each dropped package so Cal can scoop it up.",
+      "Follow the route to the swamps and use binoculars to watch the meeting on the docks.",
+      "Leave the boat and sneak through the Kingfisher camp to the shack at the far end, then free Donnie.",
+      "Knock out the brute with your fists, grab the Zombix healing item and arm yourself.",
+      "Fight or run to the seaplane, fly to the marker, land on the water and head to Brian's marina."
+     ],
+     "tips": [
+      "Crouch and take enemies down from behind for a stealthy approach. Zombix heals you, and you can carry up to five."
+     ],
+     "missable": [
+      "Donnie's cash sits in the white-and-red trailer on the way to the plane. Grab it before you leave."
+     ],
      "sources": [
       {
        "name": "PowerPyx",
@@ -99,9 +111,18 @@ window.WALK_DATA = {
      "name": "Lab Fees",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Brian's Lockup fence"
+     ],
+     "steps": [
+      "Go to the locked boutique, call Brian, then head inside.",
+      "Talk to the clerk, who can't pay, and punch him once.",
+      "Open the back-room door with code 0420 and take the acid. You can empty the register too.",
+      "Call Brian, then drop the acid in the stash at Brian's Lockup (door code 7700)."
+     ],
+     "tips": [
+      "With no bank account yet, the $600 payment turns up later in the mailbox outside Jason's house."
+     ],
      "missable": [],
      "sources": [
       {
@@ -121,8 +142,14 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Drive Jason's '70 Ganado to the marker and talk to Joey outside the garage.",
+      "Pull into the garage and pick the free Full Engine repair.",
+      "Choose Cosmetics, then Respray, and pick any colour."
+     ],
+     "tips": [
+      "If you wreck the Ganado, reload a save and it will be parked outside your house again."
+     ],
      "missable": [],
      "sources": [
       {
@@ -141,9 +168,20 @@ window.WALK_DATA = {
      "name": "Unwanted Attention",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Police scanner app"
+     ],
+     "steps": [
+      "Drive with Cal to the Hamlet impound; he puts a police scanner app on your phone.",
+      "Climb into the lot, unhook the red Phoenix from the tow truck (R3) and jump into it.",
+      "Wait by the gate until it opens, then drive off and escape the police search area.",
+      "Respray the Phoenix at the Hamlet Pay 'n' Spray and park it in Brian's garage.",
+      "Pick up the $150, then swap your hat and glasses and buy a new outfit at the store next door."
+     ],
+     "tips": [
+      "Sneak past the guards instead of knocking them out, because downed guards bring the police.",
+      "Holding Circle/B while driving makes Jason duck, so he is harder to recognise."
+     ],
      "missable": [],
      "sources": [
       {
@@ -163,8 +201,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Talk to Mandy outside her house and follow her inside.",
+      "Pick up the plunger from the bathroom floor.",
+      "Fix the kitchen sink with the plunger (R3), then the wrench (R2/RT).",
+      "On your way out, pick up the cigar she throws into the street."
+     ],
+     "tips": [
+      "Skipping or interrupting Mandy's dialogue doesn't change anything."
+     ],
      "missable": [],
      "sources": [
       {
@@ -183,11 +228,20 @@ window.WALK_DATA = {
      "name": "Get Shirley's Rum (Optional)",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Steal the Scooter"
+     ],
+     "steps": [
+      "When Shirley calls out to you in Key Lento, talk to her and agree to fetch her rum.",
+      "Go to Three Sheets Liquor to the south and ask the clerk for the rum.",
+      "Take it back to Shirley."
+     ],
+     "tips": [
+      "Ask the clerk about the bird noises to mark an exotic-animals side activity for later."
+     ],
      "missable": [
-      "Shirley's errand can be missed. Do it as soon as it appears on the map."
+      "Shirley's errand can be missed. Do it as soon as it appears on the map.",
+      "Gone for good once you start Tourist Trap."
      ],
      "sources": [
       {
@@ -207,10 +261,18 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "About a day after the rum errand, Shirley calls. Agree to help.",
+      "Swim or drive to Peggy's house behind Shirley's and take the scooter from the driveway.",
+      "Lie to Peggy or ignore her, then ride back to Shirley's.",
+      "Drive the scooter in through the porch door she opens."
+     ],
+     "tips": [
+      "Swimming across the water is the quickest way to Peggy's house."
+     ],
      "missable": [
-      "Shirley's second errand can also be missed. Do it as soon as it appears."
+      "Shirley's second errand can also be missed. Do it as soon as it appears.",
+      "Gone for good once you start Tourist Trap."
      ],
      "sources": [
       {
@@ -230,8 +292,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Wait for Brian's call after Pipework, then meet him at the pool bar in south Key Lento.",
+      "Get into Brian's car and pick up Cal at the liquor store.",
+      "Find Arnold in the search area to the south.",
+      "Chase him by car while shooting the bikers (L1/LB to draw, R1/RB to fire), then follow him on foot to the docks.",
+      "Choose whether to let Arnold go or not."
+     ],
+     "tips": [
+      "L3 + R3 slows time, which makes aiming from the car easier.",
+      "Your choice about Arnold has no lasting effect."
+     ],
      "missable": [],
      "sources": [
       {
@@ -253,9 +324,16 @@ window.WALK_DATA = {
      "unlocks": [
       "Kenton's treasure-diving questline"
      ],
-     "steps": [],
+     "steps": [
+      "Talk to Kenton at his beach shop and drive the boat out to the dive spot.",
+      "Put on the scuba gear at the back of the boat and dive in (R1/RB to dive).",
+      "Lead the divers through the trench to the shipwreck.",
+      "Use the metal detector to find all three treasure chests, then free the stuck diver from the grate.",
+      "Shoot the shark twice with the harpoon gun and lead everyone back to the boat."
+     ],
      "tips": [
-      "Kenton's diving jobs pause during the Tourist Trap run and come back later, so you won't lose them."
+      "Kenton's diving jobs pause during the Tourist Trap run and come back later, so you won't lose them.",
+      "Hold R1 near sea life to study it. This counts toward 100% completion."
      ],
      "missable": [],
      "sources": [
@@ -266,6 +344,10 @@ window.WALK_DATA = {
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/"
       }
      ],
      "id": "M011",
@@ -276,8 +358,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go into Jason's house, grab a beer from the fridge and sit with Cal.",
+      "Help Cal move the TV, coffee table, couch and chair.",
+      "Play the two video games Cal puts on until they end.",
+      "Watch the cutscene; next morning Hamlet Correctional calls about Lucia's release."
+     ],
+     "tips": [
+      "You can't win either game, so dying fast in Street Trash III saves time."
+     ],
      "missable": [],
      "sources": [
       {
@@ -359,8 +448,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Answer Donnie's call the morning after Coming Home and go to the swamps in southwest Hamlet.",
+      "Talk to the fisherman on the docks and inspect the package he points out.",
+      "Take the nearby boat to the shack downriver.",
+      "Beat the three Kingfishers and grab the cocaine from inside the shack.",
+      "Take it to Donnie's trailer in Key Lento and put the bag in the container."
+     ],
+     "tips": [
+      "The $600 reward turns up later in the mailbox at Jason's house."
+     ],
      "missable": [
       "Reportedly, Donnie's drug drop-off stops once Swamped is finished, so sell to Donnie before then."
      ],
@@ -416,10 +513,20 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [
-      "Lucia's balcony meditation"
+      "Lucia's balcony meditation",
+      "Meditate with Lucia",
+      "First meditation spot"
      ],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Meet Brian at the marina office and follow him to Cal's boat.",
+      "Pressure-wash all the green dirt off the boat.",
+      "Fly the seaplane with Lucia to Bobcat Bay and fish the drug package out of the water.",
+      "Win the shootout, then land at all three drop points.",
+      "Hurry home and hide the drugs in the washing machine under the house, then join Lucia out front."
+     ],
+     "tips": [
+      "Shooting enemies in the arms and legs earns professional reputation instead of violent reputation."
+     ],
      "missable": [],
      "sources": [
       {
@@ -429,6 +536,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-down-to-earth-walkthrough/"
       }
      ],
      "id": "M017",
@@ -439,10 +550,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "On the morning after Down to Earth, talk to Lucia in the kitchen.",
+      "Follow her out to the balcony.",
+      "Focus on her, choose Accept and meditate with her."
+     ],
+     "tips": [
+      "It counts as one of the 18 meditations for the Positive Mental Attitude trophy."
+     ],
      "missable": [
-      "Lucia's balcony meditation disappears after Chapter 1. It may count toward the Positive Mental Attitude trophy, though that is uncertain."
+      "Lucia's balcony meditation disappears after Chapter 1. It may count toward the Positive Mental Attitude trophy, though that is uncertain.",
+      "Only available in Chapter 1."
      ],
      "sources": [
       {
@@ -452,6 +570,14 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "GTABase",
+       "url": "https://www.gtabase.com/gta-6/missions/meditate-with-lucia"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-down-to-earth-walkthrough/"
       }
      ],
      "id": "M018",
@@ -487,9 +613,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Find the quest under the storybook icon in the map's quest list; it has no map marker.",
+      "In the BuckMe app, move money from checking into Family Savings. You can do this anywhere.",
+      "Hit the first goal of $5,000 to raise your checking limit.",
+      "Later goals open as the story goes on and give discounts and higher checking limits."
+     ],
      "tips": [
-      "This savings-goal mission runs for the whole story. Reaching each goal unlocks discount perks."
+      "This savings-goal mission runs for the whole story. Reaching each goal unlocks discount perks.",
+      "You get BuckMe Premium automatically at the start of Chapter 4, so there's no need to save $500,000 for it."
      ],
      "missable": [],
      "sources": [
@@ -500,6 +632,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-save-for-the-future-walkthrough/"
       }
      ],
      "id": "M020",
@@ -563,9 +699,18 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
-     "missable": [],
+     "steps": [
+      "After Day Release, accept Lucia's call asking for a ride.",
+      "Drive to the Key Lento Community Center before 4pm.",
+      "Drive her home to finish."
+     ],
+     "tips": [
+      "Turn up in a car, because Lucia complains if you arrive on foot.",
+      "The call may only come once your relationship is high enough. If it doesn't come, carry on with the story."
+     ],
+     "missable": [
+      "Turning down the call skips the mission, and arriving after 4pm fails it."
+     ],
      "sources": [
       {
        "name": "PowerPyx",
@@ -574,6 +719,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-clock-out-walkthrough/"
       }
      ],
      "id": "M023",
@@ -584,8 +733,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go to the seaplane in Southwind in the afternoon, then talk to Brian at the Tiki bar.",
+      "Take off from the water and fly to the intercept point to the south-east.",
+      "Fly right above the other plane to hide it from radar until it lands at the swamp airstrip.",
+      "Land at the northwest airstrip, fight off the bikers and rescue Donnie from the building.",
+      "Cover Donnie until his plane takes off, then follow on a bike to the meeting point."
+     ],
+     "tips": [
+      "Stay in cover and only pop out to shoot.",
+      "If Donnie dies, you restart from the last checkpoint."
+     ],
      "missable": [],
      "sources": [
       {
@@ -605,7 +763,12 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "This starts straight after Clear Skies; let Jason and Lucia's conversation finish.",
+      "Help Lucia screw the coffee table together.",
+      "Undo the screws when Jason spots the wrong order, then redo them.",
+      "Put the glass top from the box onto the table."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
@@ -626,8 +789,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go into the back room of Brian's Marina and ride with Brian to the Kingfisher camp in the northwest.",
+      "Follow Brian on foot and inspect the pig pen.",
+      "Fight your way out with Brian, then take the helicopter after the kidnappers' boat.",
+      "Switch to a boat, pull right up beside the getaway boat and hold jump to board it, then win the button-mash fight.",
+      "Back home, tell Lucia about Brian's retirement for a relationship boost."
+     ],
+     "tips": [
+      "Move fast in the boat chase. Enemy fire can wreck your engine and send you back to a checkpoint."
+     ],
      "missable": [
       "Reportedly, you can no longer sell to Donnie after this mission."
      ],
@@ -639,6 +810,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-swamped-walkthrough/"
       }
      ],
      "id": "M026",
@@ -649,9 +824,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Go into Donnie's trailer and take the bag from the bed.",
+      "Use slow-motion vision (hold L3 + R3) to find and pack his photo, flight schedule, clothes, ID, phone message and map.",
+      "Leave in Donnie's car, either escaping or fighting the three Aviators, and drive north out of Key Lento.",
+      "Destroy the car, for example by burning it with the gas can from the trunk or sinking it in the ocean."
+     ],
      "tips": [],
-     "missable": [],
+     "missable": [
+      "Open the trunk before destroying the car to get the unique Donnie's H&L .38."
+     ],
      "sources": [
       {
        "name": "PowerPyx",
@@ -660,6 +842,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/"
       }
      ],
      "id": "M027",
@@ -670,8 +856,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Take a boat to the search area off Key Lento's north coast.",
+      "Dive in the south-east part of the area to find the sunken boat.",
+      "Open the compartment at the back of the wreck and take the bag.",
+      "Fence the bag at Brian's Lockup for $1,200."
+     ],
+     "tips": [
+      "Take a boat the whole way, because swimming out is too slow."
+     ],
      "missable": [],
      "sources": [
       {
@@ -681,6 +874,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-donnies-lost-drugs-walkthrough/"
       }
      ],
      "id": "M028",
@@ -691,9 +888,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Take a six-pack from the fridge at the marked liquor store; you pay when you pick it up.",
+      "Drive to Cal's house and talk to him by the water.",
+      "Take the boat to the fishing spot and catch fish (steer against the fish while reeling).",
+      "Back at Cal's dock, grill all three fish until both sides are done.",
+      "Follow Lucia out front and drive her home."
+     ],
      "tips": [],
-     "missable": [],
+     "missable": [
+      "This is the last free roam in Chapter 1. After it you can't free roam again until Chapter 2, and you lose the Key Lento house and all pocket cash. Keep a separate manual save and put at least $5,000 into Family Savings first."
+     ],
      "sources": [
       {
        "name": "PowerPyx",
@@ -702,6 +907,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-recalibration-talk-to-lucia-walkthrough/"
       }
      ],
      "id": "M029",
@@ -712,15 +921,25 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "After Feng Shui, accept Cal's text challenging you to a fishing contest.",
+      "Take a boat to the marked spot in Gambit Bay and drop anchor from the vehicle menu.",
+      "Equip the fishing rod and keep fishing until you land a stoplight parrotfish over 2 lbs.",
+      "Send the catch to Cal to win."
+     ],
      "tips": [
-      "Cal's fishing pauses during the Tourist Trap run and comes back later."
+      "Cal's fishing pauses during the Tourist Trap run and comes back later.",
+      "The basic Small Saltwater Lure is enough. The challenge stays open after Chapter 1, but the boat at Jason's house won't."
      ],
      "missable": [],
      "sources": [
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "GTABase",
+       "url": "https://www.gtabase.com/gta-6/missions/catch-a-bigger-fish"
       }
      ],
      "id": "M030",
@@ -730,16 +949,31 @@ window.WALK_DATA = {
      "name": "Ring the Bell! (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "White Rusty Anchor T-Shirt",
+      "Rusty Anchor Cap"
+     ],
+     "steps": [
+      "After Day Release, answer Cal's text and meet him at the Rusty Anchor before you meet Brian for Swamped.",
+      "Have a drink with Cal out back (optional).",
+      "Choose Give Ride Home and help him out to the car.",
+      "Drive him home carefully and help him up the stairs."
+     ],
+     "tips": [
+      "Drinking makes Jason tipsy, so driving gets harder."
+     ],
      "missable": [
-      "GTABase marks this Cal errand as missable. Finish it before Tourist Trap."
+      "GTABase marks this Cal errand as missable. Finish it before Tourist Trap.",
+      "Only available before Swamped. Skip it and you can never get the White Rusty Anchor T-Shirt or the Rusty Anchor Cap."
      ],
      "sources": [
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "GTABase",
+       "url": "https://www.gtabase.com/gta-6/missions/ring-the-bell"
       }
      ],
      "id": "M031",
@@ -820,9 +1054,18 @@ window.WALK_DATA = {
      "name": "Discharge Time",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Chapter 2"
+     ],
+     "steps": [
+      "As Lucia, go up to the second floor of the hospital and find Jason in room 203.",
+      "As Jason in the wheelchair, shoot the attackers while Lucia pushes.",
+      "Grab the shotgun and crawl to the gun when you get knocked down.",
+      "From the back of the ambulance, shoot the police cars chasing you."
+     ],
+     "tips": [
+      "Follow the pink line on the floor to find room 203 quickly."
+     ],
      "missable": [],
      "sources": [
       {
@@ -847,8 +1090,15 @@ window.WALK_DATA = {
      "name": "What's in the Bag?",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
+     "unlocks": [
+      "Paradise Lost trophy",
+      "Lucia in free roam"
+     ],
+     "steps": [
+      "As Lucia, look over the items from the Visitor Center bag in the motel room.",
+      "Pick up the small statue and turn it over to read the note underneath.",
+      "Check the hard drive. You have no computer yet, so it has to wait."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
@@ -869,8 +1119,14 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Come back to the Starlet Motel at the end of each day to look in on Jason.",
+      "Keep it up until a cutscene plays of Lucia caring for him.",
+      "Carry on with the other Chapter 2 jobs. This one finishes by itself after Breakfast Run."
+     ],
+     "tips": [
+      "It has no map marker of its own. Find it under Map > Story. You can't fail or miss it."
+     ],
      "missable": [],
      "sources": [
       {
@@ -890,8 +1146,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Step out of the motel room and go into reception, on your left.",
+      "Speak to Linda, the manager, who wants the room paid for now.",
+      "If you bought the necklace in Chapter 1, Lucia gives it to Linda as collateral and the mission ends."
+     ],
+     "tips": [
+      "You get the necklace back once you pay the $900 bill later (Behind on Payments).",
+      "In reception, read the wall map to reveal Port Gellhorn, and the flyer to pick up Check Out McKittrick Farm."
+     ],
      "missable": [],
      "sources": [
       {
@@ -901,6 +1164,14 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-overnight-charges-see-linda-the-manager-walkthrough/"
+      },
+      {
+       "name": "GTABase",
+       "url": "https://www.gtabase.com/gta-6/missions/overnight-charges"
       }
      ],
      "id": "M037",
@@ -911,8 +1182,14 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Cross the road from the motel to the gas station and go into the Alpha convenience store.",
+      "Grab the eight marked items: soda, protein bars, fruit, soup, gauze, bandanas, hair clippers and a makeup bag.",
+      "Take them back to your motel room."
+     ],
+     "tips": [
+      "Each item is paid for as you pick it up, so there's no need to visit the till."
+     ],
      "missable": [],
      "sources": [
       {
@@ -922,6 +1199,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-just-moved-in-walkthrough/"
       }
      ],
      "id": "M038",
@@ -932,8 +1213,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Ask Zach outside the rooms about painkillers, then knock on Vicki's door at Room 10 and buy her pills for $50.",
+      "When the pills turn out to be useless, go back to Vicki. She agrees to help you find real ones.",
+      "Drive Vicki to Delights in Port Gellhorn and follow her through the club, then back to her car.",
+      "Look for her dealer Dunk at his trailer, the boatyard and finally the car wash.",
+      "Deal with the gang at the car wash, then open the shutter and chase Dunk's car until it stops.",
+      "Drive Dunk home to finish."
+     ],
+     "tips": [
+      "Pick \"Defuse\" both times at the car wash to skip the fight and earn professional reputation."
+     ],
      "missable": [],
      "sources": [
       {
@@ -943,6 +1233,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/"
       }
      ],
      "id": "M039",
@@ -953,8 +1247,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Head to Gellhorn Outfitters, the Ammu-Nation in Port Gellhorn.",
+      "Buy a weapon, or take one of your old guns out of the green gun locker."
+     ],
+     "tips": [
+      "Optional missions show on the map as black bubbles with pink letters."
+     ],
      "missable": [],
      "sources": [
       {
@@ -964,6 +1263,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-pick-up-a-gun-walkthrough/"
       }
      ],
      "id": "M040",
@@ -973,9 +1276,23 @@ window.WALK_DATA = {
      "name": "Moses",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Slim Jim",
+      "Scooter Bros app",
+      "car registration at Moses's",
+      "selling stolen cars to Moses"
+     ],
+     "steps": [
+      "Drive any car into Moses's garage in Port Gellhorn, then follow him to the yard out back.",
+      "Hold D-Pad Up to open the Waink app and hold R1/RB to scan the three cars for trackers.",
+      "Pick up the Slim Jim and use it on the Montagne XL: press Triangle/Y at the door and move the right stick until the bar turns pink.",
+      "If your car has a tracker, steal one without a tracker from the main road (not too close to the garage) and bring it back.",
+      "Respray the car and choose Register."
+     ],
+     "tips": [
+      "Cheap cars usually have no tracker. Mid-range cars often have standard trackers, and high-end cars often have advanced ones.",
+      "After this, Moses buys untracked stolen cars for quick cash."
+     ],
      "missable": [],
      "sources": [
       {
@@ -985,6 +1302,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/"
       }
      ],
      "id": "M041",
@@ -995,8 +1316,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go to the Pearl House Hair Salon in Port Gellhorn.",
+      "Buy any hairstyle to finish."
+     ],
+     "tips": [
+      "Short on cash? Mug someone or rob a shop's till."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1006,6 +1332,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-new-look-walkthrough/"
       }
      ],
      "id": "M042",
@@ -1016,8 +1346,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go to the Bargain World clothes shop in the south of Port Gellhorn.",
+      "Buy any top plus a pair of trousers or shorts to finish."
+     ],
+     "tips": [
+      "Short on cash? Mug someone or rob a shop's till."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1027,6 +1362,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-how-do-i-look-walkthrough/"
       }
      ],
      "id": "M043",
@@ -1036,9 +1375,17 @@ window.WALK_DATA = {
      "name": "Painkiller Supplier",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Slam Dunk"
+     ],
+     "steps": [
+      "Nothing to do on the map: wait for Dunk to phone you.",
+      "After his first call, the entry changes to \"Dunk Will Be in Touch\". Wait for his second call.",
+      "The second call starts Slam Dunk."
+     ],
+     "tips": [
+      "Doing other story jobs (Moses, New Look, How Do I Look?, Ambulance Chaser) makes the calls come sooner."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1048,6 +1395,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-painkiller-supplier-walkthrough/"
       }
      ],
      "id": "M044",
@@ -1058,8 +1409,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go to the barn just east of the Starlet Motel, using the stairs at the back.",
+      "Jump on the ATV in the barn and chase the ambulance until it hits a tree.",
+      "Pick up the red gas can behind it and hold R1/RB to pour fuel over the ambulance.",
+      "Look at the fuel and press Triangle/Y to ignite it."
+     ],
+     "tips": [
+      "The fire brings the police, so leave right away."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1073,6 +1431,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-ambulance-chaser-move-the-ambulance-walkthrough/"
       }
      ],
      "id": "M045",
@@ -1082,14 +1444,28 @@ window.WALK_DATA = {
      "name": "Check Out McKittrick Farm (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
+     "unlocks": [
+      "$400",
+      "Kyle as a phone contact",
+      "Collect Chemicals for Kyle"
+     ],
+     "steps": [
+      "Read Kyle's flyer on the wall outside the motel reception to mark the quest.",
+      "Go to the airstrip just east of the motel, wait for Kyle to land, talk to him and accept.",
+      "Get in the crop duster, taxi down the runway and pull back on the left stick to take off.",
+      "Select Spray Chemicals from the weapon wheel (hold L1/LB), then hold R1/RB over the field Kyle marks.",
+      "Land on the airstrip, park where you found the plane and talk to Kyle."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-check-out-mckittrick-farm-walkthrough/"
       }
      ],
      "id": "M046",
@@ -1100,8 +1476,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Get $900 together.",
+      "Pay Linda at the Starlet Motel reception to clear your room bill and get the necklace back."
+     ],
+     "tips": [
+      "Selling untracked stolen cars to Moses is quick money. Mugging people or robbing tills also works."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1111,6 +1492,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-behind-on-payments-walkthrough/"
       }
      ],
      "id": "M047",
@@ -1120,9 +1505,21 @@ window.WALK_DATA = {
      "name": "Slam Dunk",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Dunk as a fence",
+      "$1",
+      "700 from Dunk the next day"
+     ],
+     "steps": [
+      "Follow Dunk to the convenience store and wait for the pill supplier, Dr. Bill.",
+      "Go with Bill to his car and drive it to the docks.",
+      "When the gang opens fire, reverse out quickly and drive until you lose them.",
+      "Catch Bill when he runs off, then drive to the meeting spot at the airstrip southwest of Port Gellhorn.",
+      "Fight off the gang, find Dunk in the main building, then drive him back to his trailer."
+     ],
+     "tips": [
+      "Stay in cover and take the airstrip fight slowly. Use Zombix to heal."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1132,6 +1529,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/"
       }
      ],
      "id": "M048",
@@ -1141,14 +1542,30 @@ window.WALK_DATA = {
      "name": "Collect Chemicals for Kyle (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$1",
+      "000",
+      "strawberries at Kyle's farm that briefly boost your stats"
+     ],
+     "steps": [
+      "Wait about a day after McKittrick Farm for Kyle's text, then go to the compound and talk to the woman at the gate.",
+      "Find the white van at the far end. The gang wants $5,000 for the chemicals.",
+      "Pay up, or fight them and take the van.",
+      "Drive the van to Kyle's farm and park it in the barn."
+     ],
+     "tips": [
+      "Taking the van is faster than paying, but it brings a 2-star wanted level and a chase.",
+      "If the exit gate stays shut, step out of the van so it opens, then park another car in the gateway to keep it open."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-collect-chemicals-for-kyle-walkthrough/"
       }
      ],
      "id": "M049",
@@ -1158,9 +1575,18 @@ window.WALK_DATA = {
      "name": "Daily Driver",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Port Gellhorn Garage",
+      "Vice City Real Estate app"
+     ],
+     "steps": [
+      "Wait for Moses to text you a photo of the '82 Crawler. That marks the search area.",
+      "Find the white Crawler jeep in the middle of the area, then fight the guards or just drive off.",
+      "Take it to Moses's garage in Port Gellhorn."
+     ],
+     "tips": [
+      "Deliver it undamaged for a $500 bonus on top of the $1,250."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1170,6 +1596,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/"
       }
      ],
      "id": "M050",
@@ -1181,10 +1611,19 @@ window.WALK_DATA = {
      "who": "Lucia",
      "unlocks": [
       "Jason playable again",
-      "Trust trophy"
+      "Trust trophy",
+      "a personal vehicle for each character",
+      "Coffee Break"
      ],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Drive to Hank's Waffles.",
+      "Aim your gun at the staff and press Square/X to threaten them, then grab the cash from the counter.",
+      "Do the same at the liquor store and the thrift store. Leaving each one takes you to the next.",
+      "Get back in the car and lose the 2-star wanted level."
+     ],
+     "tips": [
+      "The 1-minute timer for each robbery is plenty. Small off-road tracks make losing the police easy."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1269,14 +1708,30 @@ window.WALK_DATA = {
      "name": "Veteran Hunted (Optional)",
      "conf": "Reported",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$500",
+      "Killtelligence SM-69 rifle",
+      "more hunting jobs from Bret"
+     ],
+     "steps": [
+      "As Jason, without Lucia, answer Bret's text and take the hunting rifle he gives you.",
+      "Drive to the marked woods, then press L3 + R3 to show the scent trail and follow it.",
+      "Study the deer with a scope or binoculars (hold R1/RB), then shoot it.",
+      "Pick up the carcass, load it into Bret's truck and drive back to the cabin.",
+      "Carry the deer into the processing shed."
+     ],
+     "tips": [
+      "One headshot or heart shot keeps the carcass in perfect condition."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/"
       }
      ],
      "id": "M054",
@@ -1286,9 +1741,20 @@ window.WALK_DATA = {
      "name": "Afternoon Delight",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$10",
+      "000 from Vicki the next day"
+     ],
+     "steps": [
+      "Go to Delights in Port Gellhorn. As Jason, wait for the bouncers to move off, climb the back fence and go into the dressing room.",
+      "Choose whether to help the dancers. Helping adds a stage routine and extra scenes; refusing is quicker.",
+      "Get to the back office and open the safe with code 2008.",
+      "Shoot your way out of the club, then lose the bikers.",
+      "Take the money to Vicki. If you helped, buy Jason new clothes on the way."
+     ],
+     "tips": [
+      "If you start the mission alone, your partner is called in automatically."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1298,6 +1764,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/"
       }
      ],
      "id": "M055",
@@ -1378,8 +1848,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Start at the Jack of Hearts in Crosstown and drive to the pick-up spot.",
+      "Pick which product to take, then drive to the deal.",
+      "Collect the money and handle the confrontation that follows.",
+      "Drive Dre'Quan to Southside."
+     ],
+     "tips": [
+      "The product you pick has no lasting effect. Keeping the deal calm earns a Professional bonus, but the confrontation still ends in a fight, so a melee knockout is fine."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1389,6 +1866,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-dealers-choice-go-see-drequan-walkthrough/"
       }
      ],
      "id": "M058",
@@ -1398,10 +1879,25 @@ window.WALK_DATA = {
      "name": "Dubious Provenance",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
-     "missable": [],
+     "unlocks": [
+      "Crowex Octane watch",
+      "'32 Hustler car",
+      "About $2",
+      "500 in jewelry and cash"
+     ],
+     "steps": [
+      "Head to the antique store in Capri.",
+      "Get in through the window, let your partner in, and check the north desk drawer for the statue.",
+      "Search the motel next door for Halifax.",
+      "Go to the house in northwest Capri and chase Halifax down.",
+      "Call Jason once Halifax is stopped."
+     ],
+     "tips": [
+      "Sneaking in is quieter than breaking the door down."
+     ],
+     "missable": [
+      "The optional phone call to Halifax about the statue disappears at the end of Chapter 3, and the follow-up parts are lost if you skip it."
+     ],
      "sources": [
       {
        "name": "PowerPyx",
@@ -1410,6 +1906,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/"
       }
      ],
      "id": "M059",
@@ -1420,8 +1920,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Drive to the run-down house in Hamlet and follow Mia inside.",
+      "Explore the house, then clear the junk off the front lawn.",
+      "Grab the mattress and deal with the attacker who appears.",
+      "Use the excavator to smash up the gang's property.",
+      "Get in Mia's car and drive to her office."
+     ],
+     "tips": [
+      "Carry junk to the blue dumpster. Shoot the attacker fast when the mattress comes out, and use the excavator claw to grab and crush the cars."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1431,6 +1939,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-mami-knows-best-catch-up-with-mia-walkthrough/"
       }
      ],
      "id": "M060",
@@ -1440,9 +1952,16 @@ window.WALK_DATA = {
      "name": "Get Your Wheels (Optional)",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "A personal vehicle for Chapter 3"
+     ],
+     "steps": [
+      "Either get an impounded car back by paying through the Scooter Bros app, or register a vehicle at a Pay 'n' Spray.",
+      "One vehicle for either character completes it."
+     ],
+     "tips": [
+      "There is no map marker, so do it anywhere. Recovering a car costs roughly $700-$900. To register one you need a free slot, so you may need to buy a garage first."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1452,6 +1971,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-get-your-wheels-walkthrough/"
       }
      ],
      "id": "M061",
@@ -1462,13 +1985,23 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Answer Manuel's text as Jason and go to the meetup in Salton.",
+      "Rent one of the three cars on offer ($600-$900).",
+      "Finish the race against the Hit 'n' Run racers."
+     ],
+     "tips": [
+      "The priciest rental has the best stats and makes winning easier. First place pays $3,000."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-join-a-street-race-walkthrough/"
       }
      ],
      "id": "M062",
@@ -1478,9 +2011,18 @@ window.WALK_DATA = {
      "name": "Here, Kitty Kitty",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Tyrone as a goods drop-off contact"
+     ],
+     "steps": [
+      "Go to Charles' apartment in Rockridge and find out where he went.",
+      "Head to the camp in La Perle.",
+      "Chase Charles up the building and confront him on the top level.",
+      "Search him."
+     ],
+     "tips": [
+      "Pay the doorman $20 for the info, or break in and read the receipt in the bedroom. Punch the vagrants at the camp instead of shooting them."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1490,6 +2032,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-here-kitty-kitty-speak-with-tyrone-walkthrough/"
       }
      ],
      "id": "M063",
@@ -1500,8 +2046,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Wait for Lorena's call after Mami Knows Best.",
+      "Open the BuckMe app on your phone and send her $5,000 from checking."
+     ],
+     "tips": [
+      "There is no map marker and no travel needed; just make sure you have $5,000."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1511,6 +2062,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-send-money-to-lorena-walkthrough/"
       }
      ],
      "id": "M064",
@@ -1521,13 +2076,22 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Keep playing other missions until Brian calls, roughly one in-game day after Cal's visit.",
+      "The call completes this step and starts Meet the Heders."
+     ],
+     "tips": [
+      "There is no map marker; sleeping or doing other jobs passes the time."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-encrypted-hard-drive-walkthrough/"
       }
      ],
      "id": "M065",
@@ -1537,9 +2101,18 @@ window.WALK_DATA = {
      "name": "Boobie Time",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Yasmani as a goods drop-off (pays more for jewelry and marked bills)"
+     ],
+     "steps": [
+      "Get in Boobie's car and drive to the first pick-up, then wait for him.",
+      "Drive to the second pick-up nearby and honk the horn.",
+      "Drive to the riverside club and grab the cash bag during the chase.",
+      "Return to Boobie and drive to the smoke shop, then go inside."
+     ],
+     "tips": [
+      "Enemies tend to circle a dead end, which makes them easy targets. Drive over the bag and press the pick-up button."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1549,6 +2122,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-boobie-time-talk-to-boobie-walkthrough/"
       }
      ],
      "id": "M066",
@@ -1559,13 +2136,23 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Wait for the delayed text, then go to Kyle's farm in Kelly County.",
+      "Search the farm for Kyle.",
+      "Choose an ending: let Kyle handle the police and talk to him afterwards, or talk to the police and follow the agent into the barn in a hazmat suit."
+     ],
+     "tips": [
+      "Only the police route pays ($5,000), and only if you act before things turn violent. Both endings count toward the Strangers & Freaks trophy."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-buddy-check-on-kyle-walkthrough/"
       }
      ],
      "id": "M067",
@@ -1575,9 +2162,19 @@ window.WALK_DATA = {
      "name": "Meet the Heders",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Cut-off Tool (opens orange SCOOP containers for both characters)"
+     ],
+     "steps": [
+      "Go to the restaurant and meet Brian at the bar.",
+      "Go to the van and open its rear doors.",
+      "Drive to the dockyard and find the SCOOP containers.",
+      "Cut into the container, steal the car and break it out.",
+      "Lose the cops and drive to the lockup."
+     ],
+     "tips": [
+      "Order Surf and Turf for a relationship bonus. Hold the cutting button to speed up the lock."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1587,6 +2184,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-meet-the-heders-walkthrough/"
       }
      ],
      "id": "M068",
@@ -1629,14 +2230,27 @@ window.WALK_DATA = {
      "name": "Bumper to Bumper (Optional)",
      "conf": "Reported",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$500"
+     ],
+     "steps": [
+      "As Jason, drive to the mod shop and fit the pro build and nitrous (Yago pays).",
+      "Drive to the race crew and follow Yago on foot.",
+      "Finish the race, then lose the police.",
+      "Drive to the meetup in north Vice City."
+     ],
+     "tips": [
+      "It appears only after a long delay. If the marker shows a lock, sleep at the apartment."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-bumper-to-bumper-mentor-yago-walkthrough/"
       }
      ],
      "id": "M070",
@@ -1646,9 +2260,20 @@ window.WALK_DATA = {
      "name": "Car Service",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$3",
+      "000",
+      "Randy as a vehicle drop-off",
+      "Port Gellhorn and Key Lento wanted areas cleared"
+     ],
+     "steps": [
+      "As Lucia, search the Salton chop shop for the Schafter V12.",
+      "Steal the car and get out of the area.",
+      "Deliver it to Leonida Auto World."
+     ],
+     "tips": [
+      "Climb the white van on the north side to reach the roof and sneak in. Don't shoot the dog unless it attacks, and try to leave before the police spot you."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1658,6 +2283,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/"
       }
      ],
      "id": "M071",
@@ -1668,8 +2297,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Wait for Lorena's message a few in-game days after the first payment.",
+      "Send her another $5,000 through the BuckMe app."
+     ],
+     "tips": [
+      "This is a required main mission, so keep $5,000 on hand."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1679,6 +2313,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-send-more-money-to-lorena-walkthrough/"
       }
      ],
      "id": "M072",
@@ -1689,8 +2327,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go backstage, find the Dimez and meet them in the parking lot.",
+      "Follow Roxy to Peewees, order from the clerk, then ride with Bae-Luxe to the house party.",
+      "Find Roxy, lure Jacki away from the door and deal with Kamal.",
+      "As Jason, cut the power, then follow Roxy out."
+     ],
+     "tips": [
+      "Use the back door. Let Jacki's dog out from the kitchen to move her, and look for the green power box on the corner."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1700,6 +2345,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/"
       }
      ],
      "id": "M073",
@@ -1709,9 +2358,19 @@ window.WALK_DATA = {
      "name": "First Impressions",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$3",
+      "000"
+     ],
+     "steps": [
+      "Get in the car and go to the meetup.",
+      "Hold off the police.",
+      "Drive to the Rialto Islands parking lot and switch into the van.",
+      "Drive Raul to the drop-off."
+     ],
+     "tips": [
+      "Shoot tires and engines rather than drivers to avoid a Violent rating, and heal from your inventory when health gets low."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1721,6 +2380,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-first-impressions-meeting-with-raul-walkthrough/"
       }
      ],
      "id": "M074",
@@ -1730,9 +2393,19 @@ window.WALK_DATA = {
      "name": "Crosstown Traffic",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$3",
+      "000"
+     ],
+     "steps": [
+      "Meet Raul at the Courtyard Bar in Stockyard (Lucia) or Karim at the La Perle boatyard (Jason).",
+      "Follow the boat, then board the metro at the next station.",
+      "Confront the gang member and take control of the boat.",
+      "Hit the emergency stop and defend the boat."
+     ],
+     "tips": [
+      "Ammo is unlimited in the final defense. Rifles and armor are on the boat's back seats, and shooting the helicopter pilot through the windscreen downs it fast."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1742,6 +2415,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-crosstown-traffic-meet-raul-walkthrough/"
       }
      ],
      "id": "M075",
@@ -1751,9 +2428,21 @@ window.WALK_DATA = {
      "name": "Credit Check",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$6",
+      "000",
+      "Dye Pack Jammer",
+      "New robbery targets on the map"
+     ],
+     "steps": [
+      "Pick masks with Andrea and take the dye pack jammer from Karim.",
+      "Drive the getaway car to three Fleeca banks and rob each one.",
+      "Escape the police and return to the apartment.",
+      "Answer the door."
+     ],
+     "tips": [
+      "Put your mask on before entering each bank, and threaten guards quickly so they drop their guns."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1763,6 +2452,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/"
       }
      ],
      "id": "M076",
@@ -1772,9 +2465,21 @@ window.WALK_DATA = {
      "name": "Steal the Zorrusso for Randy",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$21",
+      "250",
+      "Key Cloner",
+      "Wish List car side quests"
+     ],
+     "steps": [
+      "Install the Key Cloner from your phone.",
+      "Find the target car on the ground floor, east side of the garage, and use the cloner on its door.",
+      "Drive it to Randy's showroom.",
+      "Follow Randy to the Wish List board."
+     ],
+     "tips": [
+      "Keep your speed up so the tracker bar doesn't alert police; it switches off near the showroom. Deliver the car undamaged for a $10,000 bonus."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1788,6 +2493,10 @@ window.WALK_DATA = {
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-clonin-keys-makin-gs-steal-the-zorrusso-for-randy-walkthrough/"
       }
      ],
      "id": "M077",
@@ -1798,8 +2507,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go to the Eris store and find a pair of DWNPLY sneakers.",
+      "Bring them to Dre'Quan and follow him to the VIP lounge.",
+      "Hand DWNPLY the shoes and take his keys.",
+      "Escape, find the car in the parking lot and steal it.",
+      "Drive to the Speedshop and get away with the car."
+     ],
+     "tips": [
+      "Throw a basketball at the seller to make him drop the bag instead of paying $1,580. Use the horn to find the car, and leave the red area to lose chasers."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1809,6 +2526,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-ride-or-die-meet-drequan-walkthrough/"
       }
      ],
      "id": "M078",
@@ -1819,13 +2540,22 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Keep playing until Raul calls, usually about a day after Credit Check.",
+      "The call completes this step and opens the Cartel Heist missions."
+     ],
+     "tips": [
+      "There is no map marker; sleep or do side content to pass time."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-rauls-next-job-walkthrough/"
       }
      ],
      "id": "M079",
@@ -1836,10 +2566,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Wait for Yago's message a few in-game days after Bumper to Bumper.",
+      "As Jason, talk to Santiago at the Salton meetup and pick the Freeway Run race.",
+      "Rent a car and finish the race."
+     ],
+     "tips": [
+      "First place pays $3,800."
+     ],
      "missable": [
-      "Time-limited. Do it while its hourglass marker is on the map or it is gone."
+      "Time-limited. Do it while its hourglass marker is on the map or it is gone.",
+      "Its pink marker has a limited-time hourglass, so start it as soon as it appears."
      ],
      "sources": [
       {
@@ -1853,6 +2590,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-race-against-yago-walkthrough/"
       }
      ],
      "id": "M080",
@@ -1863,7 +2604,11 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "As Lucia, walk in through the front door and follow Jason to a table.",
+      "Use Focus to highlight security, then inspect the cameras, the man in the pink suit, the two elevator guards and the panel between the elevators.",
+      "Go upstairs when Raul calls and sit near him and Andrea."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
@@ -1874,6 +2619,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-sinfrontera-national-bank-scope-out-the-bank-walkthrough/"
       }
      ],
      "id": "M081",
@@ -1884,8 +2633,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Find the target house and park nearby.",
+      "Sneak up on foot and collect Nicole.",
+      "Escape with her and get clear of the area.",
+      "Drive to the planning room in Stockyard."
+     ],
+     "tips": [
+      "Stay right behind Jason and wait when he says so to avoid the guards."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1895,6 +2651,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-security-expert-walkthrough/"
       }
      ],
      "id": "M082",
@@ -1905,8 +2665,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Jason, chase the first thief and shoot their legs, then search the dropped bag.",
+      "As Lucia, do the same with the second thief.",
+      "Meet up outside the apartment and drive south to Big House Storage.",
+      "Follow Jason up to his storage unit."
+     ],
+     "tips": [
+      "It starts automatically back at the apartment after Boobie Time and First Impressions. Use quick-aim Focus to hit legs."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1916,6 +2683,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-caught-slipping-walkthrough/"
       }
      ],
      "id": "M083",
@@ -1926,8 +2697,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Finish the heist preps: Sinfrontera National Bank, Security Expert, Company Property, Safe Word, The Missing Link and Hidden Charges.",
+      "It completes when you start The Cartel Heist."
+     ],
+     "tips": [
+      "This is a tracker with no map marker, not a mission of its own."
+     ],
      "missable": [],
      "sources": [
       {
@@ -1937,6 +2713,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-heist-planning-walkthrough/"
       }
      ],
      "id": "M084",
@@ -1947,9 +2727,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Follow Brian and drive to the airfield.",
+      "Load a weapons crate into the truck, then grab another.",
+      "Escape with Pete and protect the cargo during the chase.",
+      "Fly back toward the planning room and land the plane."
+     ],
      "tips": [
-      "Protect every weapons crate. Each crate you keep becomes a charge for a cell tower, which adds time to the Cartel Heist clock."
+      "Protect every weapons crate. Each crate you keep becomes a charge for a cell tower, which adds time to the Cartel Heist clock.",
+      "Reload Lucia's LMG only when no cars are right behind you. Land in the colourful field to the right of the river."
      ],
      "missable": [],
      "sources": [
@@ -1964,6 +2750,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-company-property-walkthrough/"
       }
      ],
      "id": "M085",
@@ -1973,10 +2763,21 @@ window.WALK_DATA = {
      "name": "Safe Word",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
+     "unlocks": [
+      "Gil's Kalinga .50",
+      "$1",
+      "500"
+     ],
+     "steps": [
+      "Drive to the mansion and find a way in by following the assistant.",
+      "Work the pool cover job, then handle Rodney in a fist fight.",
+      "Slip into the office, search it, open the window and attach the winch.",
+      "Escape with the safe and deliver it to Felipe.",
+      "Practise cracking the safe."
+     ],
      "tips": [
-      "This is practice for the vault minigame, and you can retry it."
+      "This is practice for the vault minigame, and you can retry it.",
+      "Crouch to stay hidden. Avoid hitting cyclists and gravestones with the dangling safe, or you risk a Psycho rating."
      ],
      "missable": [],
      "sources": [
@@ -1987,6 +2788,10 @@ window.WALK_DATA = {
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/"
       }
      ],
      "id": "M086",
@@ -1997,8 +2802,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Lucia, follow Andrea, check in and enter the room.",
+      "Knock out Monty and clear a path out for Andrea.",
+      "Drive to the site, then as Jason meet Lucia and bring Monty along.",
+      "Lower and raise Monty to get answers, then deal with him."
+     ],
+     "tips": [
+      "Never lower Monty fully into the water. Go back to the photo room after the first fight to grab Monty's 1992 Pistol."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2008,6 +2820,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/"
       }
      ],
      "id": "M087",
@@ -2017,14 +2833,27 @@ window.WALK_DATA = {
      "name": "Mall Rats (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$12",
+      "000"
+     ],
+     "steps": [
+      "Wait for Billy's call after his first two jobs (solo character only).",
+      "Follow Billy and rob the jewelry store.",
+      "Follow Billy during the getaway and get in the back of the van."
+     ],
+     "tips": [
+      "Bring heavy weapons. Blow the safe with an explosive or wait for Billy to get the code, and stay close to him in the chase."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-mall-rats-walkthrough/"
       }
      ],
      "id": "M088",
@@ -2034,14 +2863,27 @@ window.WALK_DATA = {
      "name": "Brother To Brother (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Yago's car"
+     ],
+     "steps": [
+      "As Jason, drive to the deal in western Vice City and park by the race car.",
+      "Follow Yago, then Manuel, to the deal and pick up the bag.",
+      "Fight your way back to the car.",
+      "Follow Yago and meet up with him."
+     ],
+     "tips": [
+      "Stay near Yago during the fight, and loot enemy weapons as you go."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-brother-to-brother-back-up-yago-walkthrough/"
       }
      ],
      "id": "M089",
@@ -2051,9 +2893,17 @@ window.WALK_DATA = {
      "name": "Cooties",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Bae-Luxe's Bat"
+     ],
+     "steps": [
+      "As Lucia, shoot the music video: driving, a brawl, a bat swing and spraying the car.",
+      "Escape the cars chasing you and leave the red zone.",
+      "Drive the car to the studio."
+     ],
+     "tips": [
+      "Hold the accelerator and steer around the circle with the left stick. Shake the spray can before painting."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2063,6 +2913,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-cooties-shoot-the-music-video-walkthrough/"
       }
      ],
      "id": "M090",
@@ -2072,10 +2926,18 @@ window.WALK_DATA = {
      "name": "Hidden Charges",
      "conf": "Confirmed",
      "who": "",
-     "unlocks": [],
-     "steps": [],
+     "unlocks": [
+      "Extra time on the Cartel Heist clock (one bonus per charge placed)"
+     ],
+     "steps": [
+      "Get in the van and drive to the garage downtown, parking in the marked spot in the alley.",
+      "Plant a charge on the East Cell Tower above the van.",
+      "Plant charges on the South and West Cell Towers.",
+      "Escape the police search area."
+     ],
      "tips": [
-      "Destroy all three cell towers, here or earlier, to get more time in the heist finale."
+      "Destroy all three cell towers, here or earlier, to get more time in the heist finale.",
+      "Swap characters after the second charge to get back faster. Grab a parachute from the rooftop box if you need one."
      ],
      "missable": [],
      "sources": [
@@ -2086,6 +2948,10 @@ window.WALK_DATA = {
       {
        "name": "timesaver.gg",
        "url": "https://timesaver.gg/blog/gta-6-heists"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-hidden-charges-walkthrough/"
       }
      ],
      "id": "M091",
@@ -2096,8 +2962,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Drive to Venture Apartments and park away from the building.",
+      "Ask for Raymond in the lobby, then fight your way out.",
+      "Help Lucia, get a car and pick up Jason.",
+      "Lose the cops and go to the Jack of Hearts."
+     ],
+     "tips": [
+      "Parking out front or in the marked area gets your car impounded. You start with only pistols, so grab dropped rifles. Pick up the red bag in the first room for a Professional bonus."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2107,6 +2980,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-bricked-up-return-to-the-apartment-walkthrough/"
       }
      ],
      "id": "M092",
@@ -2116,9 +2993,19 @@ window.WALK_DATA = {
      "name": "South Leonida Real Estate",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$2",
+      "000 from Mia (arrives many in-game days later)"
+     ],
+     "steps": [
+      "Go to the house and look for Mia, then head outside and tail the car.",
+      "Search the building for Mia and get in the car.",
+      "Drive to the first property, then the next, following Mia.",
+      "Protect Mia, find Viper and return to Mia."
+     ],
+     "tips": [
+      "Stay far enough back that the arrow over the car stays white. You only start with a pistol, so take weapons from enemies."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2128,6 +3015,10 @@ window.WALK_DATA = {
       {
        "name": "GTABase",
        "url": "https://www.gtabase.com/gta-6/missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-south-leonida-real-estate-meet-mia-walkthrough/"
       }
      ],
      "id": "M093",
@@ -2246,14 +3137,28 @@ window.WALK_DATA = {
      "name": "Pool Day",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Attend Eddie Acosta's Party (Optional)"
+     ],
+     "steps": [
+      "As Jason, head down to the hotel pool with Lucia and settle at the cabana.",
+      "Walk to the bar on the far side of the pool and order her a Tequila Sunrise.",
+      "Chat with Eddie Acosta when he stops you, then bring Lucia her drink.",
+      "Sit and people-watch with Lucia, answering her comments about the guests.",
+      "Follow her down to the beach and take Valentina's call to finish."
+     ],
+     "tips": [
+      "Don't wander off from the room at the start. Lucia calls you back to the balcony before the pool trip begins."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-pool-day-walkthrough/"
       }
      ],
      "id": "M097",
@@ -2349,14 +3254,26 @@ window.WALK_DATA = {
      "name": "It's A Date! (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Relationship increase"
+     ],
+     "steps": [
+      "Go to the marker in Stockyard with your partner.",
+      "Head into the Courtyard Bar area and buy a drink.",
+      "Dance for a while if you like, then walk back out to the street to finish."
+     ],
+     "tips": [
+      "Skipping it has no consequences, but it's an easy relationship boost."
+     ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-its-a-date-walkthrough/"
       }
      ],
      "id": "M101",
@@ -2395,9 +3312,14 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Open the map's story mission list, since this one has no map marker.",
+      "Open the BuckMe app on your phone.",
+      "Pay Abe Gonzalez's $75,000 fee. The mission completes immediately."
+     ],
      "tips": [
-      "Guides suggest the lawyer needs paying here, so keep some cash on hand."
+      "Guides suggest the lawyer needs paying here, so keep some cash on hand.",
+      "It's mandatory, so save up $75,000 before you try to push the story on."
      ],
      "missable": [],
      "sources": [
@@ -2408,6 +3330,10 @@ window.WALK_DATA = {
       {
        "name": "Dork",
        "url": "https://readdork.com/gaming/gta-6-walkthrough"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough/"
       }
      ],
      "id": "M103",
@@ -2417,9 +3343,22 @@ window.WALK_DATA = {
      "name": "Photo/Shoot",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$6",
+      "000",
+      "Roxy's W-10 SMG variant",
+      "Bae-Luxe's W-10 variant"
+     ],
+     "steps": [
+      "Meet Dre'Quan in Tequesta and ride the elevator up to the roof with him.",
+      "As Lucia, use the phone camera to snap the Dimez posing in the helicopter.",
+      "Switch to Jason, who is flying, and follow Dre'Quan's car.",
+      "Switch back to Lucia on a bike and keep up with the car on the ground. You can't shoot during this part.",
+      "Fire back at the cars that join the chase, then fight through the gang under the highway to reach Dre'Quan."
+     ],
+     "tips": [
+      "In the final alley, enemies come from cars on one side and garage doors on the other, so check both."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2429,6 +3368,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-photoshoot-shoot-a-promo-walkthrough/"
       }
      ],
      "id": "M104",
@@ -2438,14 +3381,30 @@ window.WALK_DATA = {
      "name": "Bad Driver! (Optional)",
      "conf": "Reported",
      "who": "",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
-     "missable": [],
+     "unlocks": [
+      "$20",
+      "000 (kill) or Collect Felipe's Gift (spare)"
+     ],
+     "steps": [
+      "Go into the marked bar in Millport and head toward the back, where Felipe appears.",
+      "Chase him out the back toward the woods.",
+      "Shoot his legs or back to slow him, then catch him and fight him until he gives up.",
+      "Aim at him to question him, then decide whether to kill him or let him go."
+     ],
+     "tips": [
+      "Killing him earns $20,000 from Andrea. Sparing him opens a follow-up errand to collect his vehicle."
+     ],
+     "missable": [
+      "This mission disappears for good once the main mission Power Play starts."
+     ],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-bad-driver-find-felipe-walkthrough/"
       }
      ],
      "id": "M105",
@@ -2456,15 +3415,26 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Wait for Eddie's invitation text a few days after Pool Day, then go alone to Heathcliff Heights.",
+      "Enter the lobby and meet Eddie at the elevator.",
+      "Listen to his pitch on the roof and decide whether to pay or refuse.",
+      "Escape the locked roof by riding the bike over the solar panels to the other roof and taking that elevator.",
+      "Back in the lobby, confront Eddie if he's there, and chase him if he runs."
+     ],
      "tips": [
-      "Solo only, and it does not count toward the Strangers & Freaks trophy."
+      "Solo only, and it does not count toward the Strangers & Freaks trophy.",
+      "Don't pay. The $50,000 only buys a worthless picture, and refusing costs you nothing."
      ],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/"
       }
      ],
      "id": "M106",
@@ -2474,10 +3444,20 @@ window.WALK_DATA = {
      "name": "VCIA Takedown: Making Gainz",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
+     "unlocks": [
+      "Trauma Floor access at Ajax Gym"
+     ],
+     "steps": [
+      "As Lucia, join Ajax Gym and find Nate in the upstairs workout area.",
+      "Keep talking to him until he notices you, then do the bench, squat and deadlift sets with him.",
+      "Use the exercise bike, then tour the private Trauma Floor and leave the gym.",
+      "Find Jason down by the water (not in the parking lot) and drive to the planning room.",
+      "Use the intercom and meet Raul to finish."
+     ],
      "tips": [
-      "From here until the VCIA Takedown finale, Jason and Lucia must not be seen together in public."
+      "From here until the VCIA Takedown finale, Jason and Lucia must not be seen together in public.",
+      "During the workout montage, Nate offers steroids. The default is to decline. Accepting changes Lucia's physique for the rest of the game.",
+      "There's no combat in this mission."
      ],
      "missable": [],
      "sources": [
@@ -2492,6 +3472,10 @@ window.WALK_DATA = {
       {
        "name": "Dork",
        "url": "https://readdork.com/gaming/gta-6-walkthrough"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-making-gainz-walkthrough/"
       }
      ],
      "id": "M107",
@@ -2502,13 +3486,23 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "As Lucia, go to the Trauma Floor at Ajax Gym.",
+      "Change into workout gear at the locker on the right.",
+      "Talk to Nate, then use each marked piece of equipment near the crew.",
+      "Rest and answer Kordell however you like, then chat with the rest of the crew.",
+      "Leave the gym to finish."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-blood-sweat-and-gear-work-out-walkthrough/"
       }
      ],
      "id": "M108",
@@ -2519,8 +3513,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Jason, check in at the office by the airport's north gate and pick up your earpiece and camera glasses.",
+      "Ride along with Omar and look at the marked spots until they register.",
+      "Hitch two carts to a baggage tug by reversing slowly, then drive to the plane and load the bags.",
+      "Ask for a break, go through the fire doors and up to the security office, and plant the device behind the toilet next door.",
+      "Go back to Omar and tell him you want the job."
+     ],
+     "tips": [
+      "If a cart won't hitch, pull forward, straighten up and reverse again slowly. For the bag throws, release just before the power bar hits the target zone.",
+      "The device you plant gives the crew's hacker access to the airport's security system for the heist."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2534,6 +3537,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-too-much-baggage-scope-out-the-airport-walkthrough/"
       }
      ],
      "id": "M109",
@@ -2544,8 +3551,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Jason, meet Dre'Quan upstairs in the marked store, then follow him to the cars.",
+      "Drive to the top floor of the parking garage and park by the marked car.",
+      "Help Dre'Quan in the fistfight, then shoot the reinforcements arriving by car and up the stairs.",
+      "Drive off before the police show up.",
+      "Pick an outfit at the Ocean Beach store, then drive to the hotel and follow Dre'Quan through to the back."
+     ],
+     "tips": [
+      "Leave the garage quickly after the fight, as the police are on their way."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2555,6 +3570,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-watch-it-walkthrough/"
       }
      ],
      "id": "M110",
@@ -2564,9 +3583,20 @@ window.WALK_DATA = {
      "name": "VCIA Takedown: Amateur Hour",
      "conf": "Confirmed",
      "who": "Lucia",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$1",
+      "000"
+     ],
+     "steps": [
+      "As Lucia, talk to Francisco on the Trauma Floor stage, then change at your locker.",
+      "Follow him out the back to his car and drive north to the pick-up spot.",
+      "Park, wait on the bench, then chase the camper and shoot out its tires.",
+      "Wait while Francisco gets his money back.",
+      "Drive him back to the gym and park in his spot."
+     ],
+     "tips": [
+      "Shooting the camper's tires is the quickest way to stop it, and Francisco helps."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2576,6 +3606,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-amateur-hour-walkthrough/"
       }
      ],
      "id": "M111",
@@ -2586,13 +3620,20 @@ window.WALK_DATA = {
      "conf": "Reported",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Read Nate's text asking Lucia to hang out.",
+      "Call him from your phone, or wait about a day for him to call you. This starts Cash Injections."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-cash-injections-hang-out-with-nate-walkthrough/"
       }
      ],
      "id": "M112",
@@ -2603,8 +3644,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Lucia, meet Nate at the Muscle Beach gym and follow him to his car.",
+      "Drive to the back alley for the deal and fetch the bag from the trunk when asked.",
+      "Knock the gun away when prompted, then fight off the attackers.",
+      "Take the car left in the alley and chase Nate's car. Shooting the driver won't stop it.",
+      "Clear out the enemies at the motel, lose any police, then go for ice cream to finish."
+     ],
+     "tips": [
+      "At the motel, enemies also come from the upper floor and the side doors."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2614,6 +3663,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-cash-injections-hang-out-with-nate-walkthrough/"
       }
      ],
      "id": "M113",
@@ -2624,7 +3677,13 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Both",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "As Jason, drive to the Velvet Palm Motel in Tequesta.",
+      "As Lucia, pick a vantage point. The shipping containers give a clear view of the windows.",
+      "As Jason, follow the button prompts until the window opens.",
+      "As Lucia, take photos through the window, then regroup with Jason in the alley.",
+      "The next day, find Nate by the gym pool and talk to him to finish."
+     ],
      "tips": [],
      "missable": [],
      "sources": [
@@ -2639,6 +3698,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-dirty-work-deal-with-raina-walkthrough/"
       }
      ],
      "id": "M114",
@@ -2666,8 +3729,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Jason, drive Andrés to The Vault nightclub and escort him inside.",
+      "Run his errands: fetch drinks, take a group photo, sort out the booth and talk to the other VIP's guard.",
+      "Find him when he wanders off, then fetch a package from a car in the alley.",
+      "Protect him when a fight breaks out and escape by car.",
+      "Follow Paulo up to the helipad, get Andrés into the helicopter and shoot down the chasing helicopters."
+     ],
+     "tips": [
+      "Grab weapons from fallen enemies so you're not stuck with a pistol.",
+      "In the helicopter, aim for enemy tail rotors and fire rockets once the target box turns red."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2677,6 +3749,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-adventures-in-babysitting-work-security-for-andres-walkthrough/"
       }
      ],
      "id": "M116",
@@ -2735,9 +3811,22 @@ window.WALK_DATA = {
      "name": "Child's Play",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$30",
+      "000",
+      "Family Matters trophy"
+     ],
+     "steps": [
+      "Drive to the quarry south of the airport and on to the meeting site.",
+      "As Lucia, scout Rafa's location with binoculars, then sneak through the buildings and free him.",
+      "As Jason, protect Andrés, then switch back and lead Rafa down to the forklift area.",
+      "Chase the getaway vehicles by car and then by bike, including a helicopter.",
+      "Pull Rafa out of the SUV on the train tracks, then keep up the chase to the highway."
+     ],
+     "tips": [
+      "Lucia starts with a silenced pistol for quiet takedowns, and her aim is worse while she's carrying Rafa.",
+      "Tag enemies with binoculars first. Shoot the helicopter's pilot or passengers to stop it."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2747,6 +3836,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-childs-play-rescue-rafa-from-kidnappers-walkthrough/"
       }
      ],
      "id": "M119",
@@ -2757,11 +3850,20 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Lucia, drive near Hamlet to trigger Shayna's call, then pick her up at the prison.",
+      "Drive her to her boyfriend's house in Southside and follow her inside.",
+      "Loot cash around the house while she talks, then talk her down.",
+      "Deal with the gang members, either by talking or fighting, then split the bag with Shayna.",
+      "Leave before the police spot you."
+     ],
+     "tips": [
+      "Looting the house and talking Shayna down gets you the biggest payout."
+     ],
      "missable": [
       "Lucia's call is time-limited. Do the pickup as soon as it appears or it can be lost.",
-      "GTABase lists it as Pick Up Shayna and may place it in Chapter 3, so watch for the call from then on."
+      "GTABase lists it as Pick Up Shayna and may place it in Chapter 3, so watch for the call from then on.",
+      "It's only available for a limited time in Chapter 4, after Lawyer Up, so do it as soon as it's marked."
      ],
      "sources": [
       {
@@ -2771,6 +3873,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-this-is-a-free-call-from-pick-up-shayna-walkthrough/"
       }
      ],
      "id": "M120",
@@ -2780,9 +3886,21 @@ window.WALK_DATA = {
      "name": "VCIA Takedown: Power Play",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "$40",
+      "000"
+     ],
+     "steps": [
+      "As Lucia, check in at Kordell's base and join the crew.",
+      "As Jason, climb to the roof, sneak inside and pick the planning-room lock with the Snap Gun.",
+      "Photograph the gear and both sides of the whiteboard.",
+      "As Lucia, block the road with cones, then cover the crew with an assault rifle during the armored-truck job.",
+      "Escape through the construction site and along the highway, then steal a car heading away from the roadblock."
+     ],
+     "tips": [
+      "Police reinforcements keep arriving from every direction at the intersection, so keep turning to check.",
+      "The plans you photograph are the other crew's airport vault plan, which your crew builds the heist around."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2792,6 +3910,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "PowerPyx",
+       "url": "https://www.powerpyx.com/gta-6-power-play-help-kordells-crew-walkthrough/"
       }
      ],
      "id": "M121",
@@ -2802,9 +3924,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "As Jason, get in Karim's van on the parking-garage roof and launch the drone.",
+      "Fly to the rooftop bar and check the marked spots until you find Nate and Cisco.",
+      "Follow their car with the drone, then fly in through an apartment window.",
+      "Plant cameras at the marked spots without being seen, then watch through the cameras and leave when told.",
+      "Drive to Raul's, then drop Lucia near the gym without being seen."
+     ],
      "tips": [
-      "You use a spy drone here. Output Lag says it can be done before or after Delivery Method."
+      "You use a spy drone here. Output Lag says it can be done before or after Delivery Method.",
+      "If you're spotted in the apartment, back into a corner until the occupant leaves the room. Karim warns you when he's close.",
+      "This sets up the airport baggage boss's role in the VCIA Takedown finale."
      ],
      "missable": [],
      "sources": [
@@ -2815,6 +3945,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-close-surveillance-mission/"
       }
      ],
      "id": "M122",
@@ -2825,8 +3959,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Jason, pick up the flash drive from Andrea's shop and ride the bike to the TSS office dressed as a delivery driver.",
+      "Get past the gate guard by saying you have a delivery.",
+      "Pull the fire alarm to clear the building.",
+      "Go up to the second-floor security office and plug into a computer with database access, such as the IT admin's or manager's.",
+      "Take the drive back and escape on the bike."
+     ],
+     "tips": [
+      "You have about 90 seconds once the alarm goes off. Skip the reception computer and head straight upstairs.",
+      "This swaps the airport security records to Lucia's fingerprints, so she can get through security during the heist."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2836,6 +3979,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-delivery-method-mission/"
       }
      ],
      "id": "M123",
@@ -2846,8 +3993,17 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Lucia",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "As Lucia, follow Kordell from the gym and drive him to a warehouse.",
+      "Ask around inside to find his old cellmate Arlo at the cage.",
+      "Win the cage fight, then pass on Kordell's message.",
+      "Drive Kordell to Riverbank in Little Cuba and follow him inside.",
+      "Talk to Raul and negotiate your cut of the airport job."
+     ],
+     "tips": [
+      "In the cage fight, dodge and counter instead of trading hits, and back off when your health is low.",
+      "The crew you recruit here sets up the next heist mission, Fully Catered."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2857,6 +4013,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-team-building-mission/"
       }
      ],
      "id": "M124",
@@ -2867,8 +4027,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Jason",
      "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "steps": [
+      "Go to the lot near the airport and steal a catering truck.",
+      "Avoid the guard, who tries to detain you and calls the police.",
+      "Lose the police and deliver the truck to the drop-off.",
+      "Back at Raul's base, pack the duffel bags with fake money, adding filler until they look right."
+     ],
+     "tips": [
+      "Don't hang around the guards. Take a truck and leave before backup arrives. A change of outfit helps if police keep tracking you.",
+      "The truck and the fake cash bags are both used in the finale's bag swap."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2882,6 +4050,10 @@ window.WALK_DATA = {
       {
        "name": "timesaver.gg",
        "url": "https://timesaver.gg/blog/gta-6-heists"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-fully-catered-mission/"
       }
      ],
      "id": "M125",
@@ -2912,9 +4084,19 @@ window.WALK_DATA = {
      "name": "Headliners",
      "conf": "Confirmed",
      "who": "Jason",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "DWNFALL trophy"
+     ],
+     "steps": [
+      "Meet Dre'Quan at the empty club before it opens.",
+      "As Lucia, set up the light show from the DJ booth and test the effects.",
+      "As Jason, assign VIP tables at the door, then look after the VIP guests and run their errands.",
+      "Take bottles to the green room and watch the show.",
+      "When a brawl breaks out, chase the troublemaker toward the VIP area and win the fight."
+     ],
+     "tips": [
+      "There's no single right guest lineup. Choose guests with big offers and big followings, and skip anyone flagged as trouble."
+     ],
      "missable": [],
      "sources": [
       {
@@ -2924,6 +4106,10 @@ window.WALK_DATA = {
       {
        "name": "Output Lag",
        "url": "https://outputlag.com/guides/gta-6-chapter-4-walkthrough/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-headliners-mission/"
       }
      ],
      "id": "M127",
@@ -2995,11 +4181,20 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "",
      "unlocks": [
-      "Larger bank vault robberies"
+      "Larger bank vault robberies",
+      "Security Van tips from Yasmani",
+      "Classic Blitz Play trophy"
      ],
-     "steps": [],
+     "steps": [
+      "Sit by the café window and wait for the security van, then tail it from a distance.",
+      "Follow the guard into the bank, put on a disguise and blow open the back room door.",
+      "Deal with the guards and grab every marked bill, passing bags to your partner to carry more.",
+      "Fight out the front and lose the 4-star wanted level.",
+      "Sell the haul to Yasmani."
+     ],
      "tips": [
-      "This introduces bank vault robberies. All 8 vaults count toward 100% completion."
+      "This introduces bank vault robberies. All 8 vaults count toward 100% completion.",
+      "Ditch the police in a parking lot, switch cars and change your disguise. Expect roadblocks on highways."
      ],
      "missable": [],
      "sources": [
@@ -3065,9 +4260,21 @@ window.WALK_DATA = {
      "name": "Starting From Zero",
      "conf": "Confirmed",
      "who": "Both",
-     "unlocks": [],
-     "steps": [],
-     "tips": [],
+     "unlocks": [
+      "Top Of The World",
+      "Ma trophy",
+      "Chapter 5"
+     ],
+     "steps": [
+      "Once you have signal, check your phone.",
+      "Drive to the Aqua Stadium without drawing police attention and find Andrea in the bleachers.",
+      "Collect the statue from the storage facility, read your texts and change clothes.",
+      "Go to Acai Dreams. Lucia takes the elevator up to the terrace alone with the statue.",
+      "Follow the hostess, then play out the closing scenes."
+     ],
+     "tips": [
+      "Andrea is in the bleachers, not the parking lot. Be ready to lose the police near the storage facility."
+     ],
      "missable": [],
      "sources": [
       {
@@ -3081,6 +4288,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-starting-from-zero-mission/"
       }
      ],
      "id": "M133",
@@ -3131,9 +4342,15 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Both",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Walk to the spa on the same floor as the gym.",
+      "Meet Giorgio Gallo there.",
+      "Follow him to his office and sit through the meeting.",
+      "Explore the penthouse afterwards until Vinny's text starts the next mission."
+     ],
      "tips": [
-      "Mostly a short walk to a meeting (about 7 minutes). It can't be failed."
+      "Mostly a short walk to a meeting (about 7 minutes). It can't be failed.",
+      "You don't need the elevator or the roof. There's no combat, and it takes about 7 minutes."
      ],
      "missable": [],
      "sources": [
@@ -3144,6 +4361,10 @@ window.WALK_DATA = {
       {
        "name": "KeenGamer",
        "url": "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-taking-liberties-mission/"
       }
      ],
      "id": "M135",
@@ -3242,9 +4463,16 @@ window.WALK_DATA = {
      "conf": "Confirmed",
      "who": "Both",
      "unlocks": [],
-     "steps": [],
+     "steps": [
+      "Leave the penthouse and drive to Abe's office.",
+      "Give your names at the front desk and meet Abe.",
+      "Hear his deal and his advice on where to keep your money.",
+      "Leave, then wait in free roam until Abe calls to say you can come in and sign."
+     ],
      "tips": [
-      "No combat. You walk to the lawyer's office and agree a deal."
+      "No combat. You walk to the lawyer's office and agree a deal.",
+      "Use the wait before Abe's call to move the money you want to keep from checking into BuckMe Family Savings. Transfers into savings can't be withdrawn.",
+      "Make a manual save before Protective Custody, since missions can't be replayed."
      ],
      "missable": [
       "Reportedly, your checking balance is wiped once the deal goes through. Only Family Savings is safe, so move spare checking money into savings first."
@@ -3257,6 +4485,10 @@ window.WALK_DATA = {
       {
        "name": "PowerPyx",
        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      },
+      {
+       "name": "Output Lag",
+       "url": "https://outputlag.com/guides/gta-6-honest-abe-mission/"
       }
      ],
      "id": "M139",

@@ -1,9 +1,11 @@
 # GTA 6 Rookie Guide — beginner tips (unofficial)
 
-An offline Android app with **119 beginner tips** for Grand Theft Auto VI story mode, in 13 topics. The tips were collected during launch week (Nov 2026) from gaming magazines, guide sites, creators and the player community, then rewritten in plain language.
+An offline Android app with a **full story walkthrough** (147 missions in 7 chapters) and **119 beginner tips** for Grand Theft Auto VI story mode, in 13 topics. The tips were collected during launch week (Nov 2026) from gaming magazines, guide sites, creators and the player community, then rewritten in plain language.
 
 - **Tips are tagged by reliability.** Each one shows Confirmed, Reported or Unverified. A "Sources differ" badge marks facts the guides disagree on.
 - **Search, save and track progress.** You can search every tip, save favourites, and mark tips as learned to climb from *Fresh Off the Bus* to *Legend of Leonida*.
+- **Story walkthrough:** every mission in order, from the Prologue to the ending. Each one shows which character you play, its objectives, pro tips, unlocks and point-of-no-return warnings. It also has a spoiler shield and a mission completion tracker.
+- **Foldable-ready:** a phone layout on the Galaxy Z Fold cover screen, and a multi-column layout with a side navigation rail on the inner screen. Folding or unfolding switches between them without a reload.
 - **Five golden rules and a tip of the day** sit on the home screen.
 - **Original look and offline use.** The neon-sunset artwork is original, the app works fully offline, and each tip links to its sources.
 
@@ -25,6 +27,7 @@ Requirements: JDK 17 and the Android SDK (platform 34, build-tools 34). Set `sdk
 |---|---|
 | `app/src/main/assets/` | The app UI: `index.html`, `styles.css`, `app.js` and the generated `tips.js` |
 | `app/src/main/java/.../MainActivity.java` | WebView shell. It handles the back button and opens links outside the app |
+| `content/walkthrough.md` | Story walkthrough source (`tools/build_walkthrough.py` turns it into `walkthrough.js`) |
 | `content/tips-library.md` | The research report the tips are generated from |
 | `tools/build_tips.py` | Regenerates `tips.js` from the report: `python tools/build_tips.py content/tips-library.md app/src/main/assets/tips.js` |
 

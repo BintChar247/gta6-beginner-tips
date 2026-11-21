@@ -141,6 +141,7 @@
         '<div class="label">Your rank</div><div class="name">' + esc(rk[1]) + "</div>" +
         '<div class="next">' + learnedCount + " of " + TIPS.length + " tips learned" + (nx ? " · next: " + esc(nx[1]) : " · max rank!") + "</div>" +
       "</div></div>" +
+      '<div class="cta-wrap">' + continueCard() + "</div>" +
       '<div class="sec"><h2>5 golden rules</h2><small>swipe →</small></div>' +
       '<div class="rules">' + RULES.map(function (r, i) {
         return '<div class="rule"><span class="n">' + (i + 1) + "</span><h3>" + esc(r.t) + "</h3><p>" + esc(r.b) + "</p></div>";
@@ -160,6 +161,7 @@
       '<p class="footnote">Unofficial fan guide · not affiliated with Rockstar Games or Take-Two.</p>' +
       "</div>";
     view.innerHTML = html;
+    bindStoryLinks();
     $all("[data-open-cat]", view).forEach(function (b) {
       b.addEventListener("click", function () { go({ tab: "home", cat: b.getAttribute("data-open-cat"), focus: b.getAttribute("data-focus") }); });
     });
@@ -238,17 +240,138 @@
       "</ul><p style=\"margin-top:8px\">The game is brand new and patches can change prices, caps and unlocks.</p></div>" +
       '<div class="panel"><h3>Disclaimer</h3><p>Unofficial fan-made guide. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive. Game names and trademarks belong to their owners. Tip sources are linked on each tip.</p></div>' +
       '<div class="panel"><h3>Your progress</h3><p>' + Object.keys(learned).length + " learned · " + Object.keys(saved).length + ' saved</p><button class="danger" id="reset">Reset progress</button></div>' +
-      '<p class="footnote">Version 1.0 · content as of 21 Nov 2026</p></div></div>';
+      '<p class="footnote">Version 1.1 · content as of 21 Nov 2026</p></div></div>';
     $("#reset").addEventListener("click", function () {
       if (!confirm("Reset all learned and saved tips?")) return;
       learned = {}; saved = {}; store("learned", learned); store("saved", saved); toast("Progress reset"); renderAbout();
     });
   }
 
+  /* ---------- story walkthrough ---------- */
+  var WALK = (window.WALK_DATA || { chapters: [] }).chapters;
+  var ALL_MISSIONS = [];
+  WALK.forEach(function (c, ci) { c.missions.forEach(function (m) { m.ci = ci; ALL_MISSIONS.push(m); }); });
+  var doneM = load("missions", {});
+  var spoilerSafe = load("spoilerSafe", true);
+
+  function chapterPct(c) { if (!c.missions.length) return 0; return Math.round(c.missions.filter(function (m) { return doneM[m.id]; }).length * 100 / c.missions.length); }
+  function nextMission() { for (var i = 0; i < ALL_MISSIONS.length; i++) if (!doneM[ALL_MISSIONS[i].id]) return ALL_MISSIONS[i]; return null; }
+  function whoClass(w) { w = (w || "").toLowerCase(); return w.indexOf("both") >= 0 || (w.indexOf("jason") >= 0 && w.indexOf("lucia") >= 0) ? "both" : w.indexOf("lucia") >= 0 ? "lucia" : w.indexOf("jason") >= 0 ? "jason" : "both"; }
+
+  function continueCard() {
+    if (!ALL_MISSIONS.length) return "";
+    var nm = nextMission();
+    var total = ALL_MISSIONS.length, done = ALL_MISSIONS.filter(function (m) { return doneM[m.id]; }).length;
+    return '<button class="story-cta" data-go-mission="' + (nm ? nm.id : "") + '">' +
+      '<span class="lbl">Story walkthrough · ' + done + "/" + total + " missions</span>" +
+      '<span class="ttl">' + (nm ? "Next up: " + esc(nm.name) : "Story complete — legend!") + "</span>" +
+      '<span class="sub">' + (nm ? esc(WALK[nm.ci].title) : "Every mission ticked off") + ' <b>→</b></span>' +
+      '<span class="prog"><i style="width:' + Math.round(done * 100 / total) + '%"></i></span></button>';
+  }
+
+  function renderStory() {
+    var nm = nextMission();
+    view.innerHTML = '<div class="page">' +
+      '<div class="topbar"><h1>Story walkthrough</h1></div>' +
+      '<div class="catbanner"><span class="ico">🎬</span><p><b>' + ALL_MISSIONS.length + " missions · " + WALK.length + " chapters</b><br>Step-by-step objectives, tips and missables. Tick missions off as you play.</p></div>" +
+      '<div class="spoiler-row"><span>🛡️ Spoiler shield <small>hide steps until tapped</small></span><button class="switch' + (spoilerSafe ? " on" : "") + '" id="spoil" aria-label="Spoiler shield"><i></i></button></div>' +
+      (nm ? continueCard() : "") +
+      '<div class="chapters">' + WALK.map(function (c, ci) {
+        var p = chapterPct(c);
+        return '<button class="chapter" data-ch="' + ci + '">' +
+          '<span class="ch-no">' + (ci === 0 && /prologue/i.test(c.title) ? "P" : (/prologue/i.test(WALK[0].title) ? ci : ci + 1)) + "</span>" +
+          '<span class="ch-main"><span class="ch-t">' + esc(c.title) + '</span><span class="ch-s">' + c.missions.length + (c.missions.length === 1 ? " mission" : " missions") + (p ? " · " + p + "% done" : "") + "</span>" +
+          '<span class="bar"><i style="width:' + p + '%"></i></span></span>' +
+          (p === 100 ? '<span class="ch-done">✓</span>' : '<svg class="chev r" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>') +
+          "</button>";
+      }).join("") + "</div>" +
+      '<p class="footnote">Mission names and order come from launch-week guides and may change with patches.</p></div>';
+    $("#spoil").addEventListener("click", function () {
+      spoilerSafe = !spoilerSafe; store("spoilerSafe", spoilerSafe); buzz();
+      this.classList.toggle("on", spoilerSafe); toast(spoilerSafe ? "Spoiler shield on" : "Spoiler shield off");
+    });
+    bindStoryLinks();
+  }
+
+  function bindStoryLinks() {
+    $all("[data-ch]", view).forEach(function (b) {
+      b.addEventListener("click", function () { go({ tab: "story", chapter: +b.getAttribute("data-ch") }); });
+    });
+    $all("[data-go-mission]", view).forEach(function (b) {
+      b.addEventListener("click", function () {
+        var id = b.getAttribute("data-go-mission");
+        var m = ALL_MISSIONS.filter(function (x) { return x.id === id; })[0];
+        go({ tab: "story", chapter: m ? m.ci : 0, focus: id });
+      });
+    });
+  }
+
+  function missionCard(m, open) {
+    var done = !!doneM[m.id];
+    var src = m.sources.map(function (s) { return '<a href="' + esc(s.url) + '">' + esc(s.name) + " ↗</a>"; }).join("");
+    var w = whoClass(m.who);
+    return '<article class="mission' + (done ? " done" : "") + (open ? " open" : "") + '" data-id="' + m.id + '">' +
+      '<span class="node ' + w + '">' + (done ? "✓" : m.no) + "</span>" +
+      '<div class="m-card">' +
+        '<button class="tip-head" data-act="toggle"><span class="t-main"><span class="t-title">' + esc(m.name) + "</span>" +
+          '<span class="t-meta">' + (m.who ? '<span class="who ' + w + '">' + esc(m.who) + "</span>" : "") +
+          '<span class="badge ' + m.conf + '">' + m.conf + "</span>" +
+          (m.missable.length ? '<span class="badge conflict">Missable</span>' : "") + "</span></span>" + ICON.chev + "</button>" +
+        '<div class="tip-body"><div>' +
+          (m.missable.length ? m.missable.map(function (x) { return '<div class="conflict-note">⛔ ' + esc(x) + "</div>"; }).join("") : "") +
+          (m.steps.length ? '<div class="steps-wrap' + (spoilerSafe ? " veiled" : "") + '"><ol class="steps">' + m.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>" +
+            (spoilerSafe ? '<button class="veil" data-act="unveil">👁 Tap to reveal steps</button>' : "") + "</div>" : '<p class="nosteps">No step-by-step guide for this mission yet. Follow the yellow marker, and save before you start it.</p>') +
+          m.tips.map(function (t) { return '<div class="protip"><b>Pro tip</b>' + esc(t) + "</div>"; }).join("") +
+          (m.unlocks.length ? '<div class="unlocks"><span>Unlocks</span>' + m.unlocks.map(function (u) { return '<i>🔓 ' + esc(u) + "</i>"; }).join("") + "</div>" : "") +
+          (src ? '<div class="sources">Sources: ' + src + "</div>" : "") +
+          '<div class="actions"><button class="act' + (done ? " on" : "") + '" data-act="complete">' + ICON.check + (done ? "Completed" : "Mark complete") + "</button></div>" +
+        "</div></div></div></article>";
+  }
+
+  function renderChapter(ci, focus) {
+    var c = WALK[ci]; if (!c) { current.chapter = null; renderStory(); return; }
+    var p = chapterPct(c);
+    view.innerHTML = '<div class="page">' +
+      '<div class="topbar"><button class="iconbtn" id="back">' + ICON.back + "</button><h1>" + esc(c.title) + "</h1></div>" +
+      '<div class="catbanner"><span class="ico">🎬</span><p><b>' + c.missions.length + " missions</b> · " + p + "% done" + (c.intro ? "<br>" + esc(c.intro) : "") + "</p></div>" +
+      '<div class="timeline">' + c.missions.map(function (m) { return missionCard(m, m.id === focus); }).join("") + "</div>" +
+      '<div class="chap-nav">' +
+        (ci > 0 ? '<button class="act" data-ch-nav="' + (ci - 1) + '">← ' + esc(WALK[ci - 1].title) + "</button>" : "<span></span>") +
+        (ci < WALK.length - 1 ? '<button class="act" data-ch-nav="' + (ci + 1) + '">' + esc(WALK[ci + 1].title) + " →</button>" : "") +
+      "</div></div>";
+    $("#back").addEventListener("click", back);
+    $all("[data-ch-nav]", view).forEach(function (b) {
+      b.addEventListener("click", function () { current = { tab: "story", chapter: +b.getAttribute("data-ch-nav") }; render(); });
+    });
+    $(".timeline", view).addEventListener("click", function (e) {
+      var btn = e.target.closest("[data-act]"); if (!btn) return;
+      var card = btn.closest(".mission"), id = card.getAttribute("data-id"), act = btn.getAttribute("data-act");
+      if (act === "toggle") { card.classList.toggle("open"); return; }
+      if (act === "unveil") { btn.parentNode.classList.remove("veiled"); btn.remove(); return; }
+      if (act === "complete") {
+        buzz();
+        if (doneM[id]) delete doneM[id]; else doneM[id] = 1;
+        store("missions", doneM);
+        var m = ALL_MISSIONS.filter(function (x) { return x.id === id; })[0];
+        var tmp = document.createElement("div"); tmp.innerHTML = missionCard(m, !doneM[id]);
+        card.replaceWith(tmp.firstChild);
+        if (doneM[id]) {
+          toast(chapterPct(c) === 100 ? "🏁 Chapter complete!" : "Mission complete ✓");
+          var el = $('[data-id="' + id + '"]', view).nextElementSibling;
+          if (el && !el.classList.contains("done")) { el.classList.add("open"); setTimeout(function () { el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 80); }
+        }
+        $(".catbanner p", view).innerHTML = "<b>" + c.missions.length + " missions</b> · " + chapterPct(c) + "% done" + (c.intro ? "<br>" + esc(c.intro) : "");
+      }
+    });
+    if (focus) { var el = $('[data-id="' + focus + '"]', view); if (el) setTimeout(function () { el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 60); }
+  }
+
   /* ---------- navigation ---------- */
   function render() {
     $all("#tabbar button").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-tab") === current.tab); });
     if (current.cat) renderCategory(current.cat, current.focus, current.filter);
+    else if (current.chapter != null) renderChapter(current.chapter, current.focus);
+    else if (current.tab === "story") renderStory();
     else if (current.tab === "search") renderSearch();
     else if (current.tab === "saved") renderSaved();
     else if (current.tab === "about") renderAbout();
@@ -262,14 +385,14 @@
   }
   // Called by the Android shell on the system back button; returns true if handled.
   window.appBack = function () {
-    if (current.tab !== "home" || current.cat) { return back() || (go({ tab: "home" }), true); }
+    if (current.tab !== "home" || current.cat || current.chapter != null) { return back() || (go({ tab: "home" }), true); }
     return false;
   };
 
   $all("#tabbar button").forEach(function (b) {
     b.addEventListener("click", function () {
       var tab = b.getAttribute("data-tab");
-      if (tab === current.tab && !current.cat) { window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+      if (tab === current.tab && !current.cat && current.chapter == null) { window.scrollTo({ top: 0, behavior: "smooth" }); return; }
       buzz();
       stack = tab === "home" ? [] : [{ tab: "home" }];
       current = { tab: tab }; render();
